@@ -80,3 +80,26 @@ form.addEventListener('submit',function(e){
 
 })
 ```
+
+### project 3 solution
+```javascript 
+
+const clock = document.getElementById('clock');
+// can do by query selector also const clock = document.querySelector('#clock)
+
+
+
+setInterval(function(){
+  let date = new Date();
+ // console.log(date.toLocaleTimeString());
+ clock.innerHTML = date.toLocaleTimeString();
+},1000)
+```
+
+### project 4 solution
+
+```javascript
+
+
+
+```
