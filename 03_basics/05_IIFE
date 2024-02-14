@@ -1,0 +1,13 @@
+// Immediately Invoked Function Expressions (IIFE)
+
+(function chai(){
+    console.log(`DB CONNECTED`);
+})();
+// if you dont add ; colon then we will get errors
+(function chai(){
+    console.log(`DB CONNECTED`);
+})();
+// this is a arrow function implementation
+( ()=>{
+    console.log(`DB CONNECTED`);
+})();
